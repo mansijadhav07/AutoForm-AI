@@ -259,10 +259,10 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
     </nav>
     <div class="sb-foot">
       <div style="display:flex;align-items:center;gap:9px">
-        <div class="av">R</div>
+        <div class="av">M</div>
         <div>
-          <div style="font-size:13px;font-weight:600" id="sb-name">Riya Sharma</div>
-          <div style="font-size:11px;color:var(--muted)" id="sb-email">riya@gmail.com</div>
+          <div style="font-size:13px;font-weight:600" id="sb-name">Mansi Kiran Jadhav</div>
+          <div style="font-size:11px;color:var(--muted)" id="sb-email">mansikj07@gmail.com</div>
         </div>
       </div>
     </div>
@@ -532,7 +532,7 @@ function pgDash(el) {
 
         // Profile card
         html += '<div class="prof">';
-        html += '<div class="prof-av">R</div>';
+        html += '<div class="prof-av">M</div>';
         html += '<div style="flex:1"><div style="font-size:21px;font-weight:800;margin-bottom:4px">' + d.name + '</div>';
         html += '<div style="font-size:13px;color:var(--muted);margin-bottom:9px">' + d.email + ' &nbsp;|&nbsp; ' + d.phone + '</div>';
         html += '<div style="display:flex;gap:7px;flex-wrap:wrap"><span class="badge badge-green">Verified</span><span class="badge badge-purple">AI Active</span><span class="badge badge-blue">WhatsApp Connected</span></div></div>';
@@ -731,7 +731,7 @@ function buildWA(el) {
       '</div>' +
       '<div id="wa-msgs" style="height:420px;overflow-y:auto;padding:12px 10px;background:#0b141a;display:flex;flex-direction:column;gap:4px">' +
         '<div style="text-align:center;margin:8px 0"><span style="background:#1f2c34;color:#8696a0;font-size:11px;padding:4px 10px;border-radius:8px">Today</span></div>' +
-        '<div style="display:flex;justify-content:flex-start;margin-bottom:2px"><div style="background:#1f2c34;color:#e9edef;padding:8px 12px;border-radius:0 10px 10px 10px;max-width:82%;font-size:13px;line-height:1.5">&#128075; Hello Riya! I am <strong>AutoForm AI Bot</strong>.<br>Send your Aadhaar, ask for DOB, email, address and more!<div style="font-size:10px;color:#8696a0;text-align:right;margin-top:4px">9:41 AM</div></div></div>' +
+        '<div style="display:flex;justify-content:flex-start;margin-bottom:2px"><div style="background:#1f2c34;color:#e9edef;padding:8px 12px;border-radius:0 10px 10px 10px;max-width:82%;font-size:13px;line-height:1.5">&#128075; Hello Mansi! I am <strong>AutoForm AI Bot</strong>.<br>Send your Aadhaar, ask for DOB, email, address and more!<div style="font-size:10px;color:#8696a0;text-align:right;margin-top:4px">9:41 AM</div></div></div>' +
       '</div>' +
       '<div id="wa-pin-gate">' +
         '<div style="background:#1f2c34;border-top:1px solid #2a3942;padding:14px;text-align:center">' +
@@ -1339,8 +1339,8 @@ function pgScan(el) {
         '<div style="font-size:17px;font-weight:700;color:var(--green);margin-bottom:8px">Document Scanned!</div>' +
         '<div style="font-size:13px;color:var(--muted);margin-bottom:16px">Data extracted and stored in your profile</div>' +
         '<div style="background:var(--surface);border:1px solid var(--border);border-radius:11px;padding:14px;text-align:left;margin-bottom:16px">' +
-          '<div style="display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid rgba(42,42,74,.4)"><span style="color:var(--muted);font-size:13px">Name</span><span style="font-weight:600">Riya Sharma</span></div>' +
-          '<div style="display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid rgba(42,42,74,.4)"><span style="color:var(--muted);font-size:13px">DOB</span><span style="font-weight:600">12/05/2003</span></div>' +
+          '<div style="display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid rgba(42,42,74,.4)"><span style="color:var(--muted);font-size:13px">Name</span><span style="font-weight:600">Mansi Kiran Jadhav</span></div>' +
+          '<div style="display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid rgba(42,42,74,.4)"><span style="color:var(--muted);font-size:13px">DOB</span><span style="font-weight:600">07/08/2005</span></div>' +
           '<div style="display:flex;justify-content:space-between;padding:7px 0"><span style="color:var(--muted);font-size:13px">Aadhaar</span><span class="masked">XXXX-XXXX-1234</span></div>' +
         '</div>' +
         '<div style="display:flex;gap:10px;justify-content:center">' +
@@ -1564,9 +1564,9 @@ function pgSec(el) {
   html += '<table class="tbl"><tr><th>Field</th><th>Stored</th><th>Displayed As</th><th>Status</th></tr>';
   html += '<tr><td>Aadhaar</td><td style="color:var(--muted)">Hidden</td><td><span class="masked">XXXX-XXXX-1234</span></td><td><span class="badge badge-green">Masked</span></td></tr>';
   html += '<tr><td>PAN</td><td style="color:var(--muted)">Hidden</td><td><span class="masked">***E1234F</span></td><td><span class="badge badge-green">Masked</span></td></tr>';
-  html += '<tr><td>Name</td><td>Riya Sharma</td><td>Riya Sharma</td><td><span class="badge badge-blue">Public</span></td></tr>';
-  html += '<tr><td>Email</td><td>riya@gmail.com</td><td>riya@gmail.com</td><td><span class="badge badge-blue">Public</span></td></tr>';
-  html += '<tr><td>Phone</td><td>+91 9876543210</td><td>+91 98765*****</td><td><span class="badge badge-yellow">Partial</span></td></tr>';
+  html += '<tr><td>Name</td><td>Mansi Kiran Jadhav</td><td>Mansi Kiran Jadhav</td><td><span class="badge badge-blue">Public</span></td></tr>';
+  html += '<tr><td>Email</td><td>mansikj07@gmail.com</td><td>mansikj07@gmail.com</td><td><span class="badge badge-blue">Public</span></td></tr>';
+  html += '<tr><td>Phone</td><td>+91 9209783499</td><td>+91 92097*****</td><td><span class="badge badge-yellow">Partial</span></td></tr>';
   html += '</table></div></div>';
   el.innerHTML = html;
 }
@@ -1577,11 +1577,11 @@ function pgSet(el) {
     '<div class="card" style="margin-bottom:16px">' +
       '<div style="font-size:15px;font-weight:700;margin-bottom:15px">Profile Settings</div>' +
       '<div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px">' +
-        '<div><label class="lbl">Full Name</label><input class="inp" id="sn" value="Riya Sharma"></div>' +
-        '<div><label class="lbl">Email</label><input class="inp" id="se" value="riya@gmail.com"></div>' +
-        '<div><label class="lbl">Phone</label><input class="inp" id="sp" value="+91 9876543210"></div>' +
-        '<div><label class="lbl">Date of Birth</label><input class="inp" id="sd" value="12 May 2003"></div>' +
-        '<div style="grid-column:1/-1"><label class="lbl">Address</label><input class="inp" id="sa" value="Mumbai, Maharashtra, India"></div>' +
+        '<div><label class="lbl">Full Name</label><input class="inp" id="sn" value="Mansi Kiran Jadhav"></div>' +
+        '<div><label class="lbl">Email</label><input class="inp" id="se" value="mansikj07@gmail.com"></div>' +
+        '<div><label class="lbl">Phone</label><input class="inp" id="sp" value="+91 9209783499"></div>' +
+        '<div><label class="lbl">Date of Birth</label><input class="inp" id="sd" value="07 Aug 2005"></div>' +
+        '<div style="grid-column:1/-1"><label class="lbl">Address</label><input class="inp" id="sa" value="Kalyan, Mumbai, Maharashtra"></div>' +
       '</div>' +
       '<button class="btn btn-primary" onclick="saveSet()">Save Changes</button>' +
     '</div>' +
